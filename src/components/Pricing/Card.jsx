@@ -10,7 +10,7 @@ const Card = ({ data }) => {
         <span className="text-lg font-bold text-gray-800">/m</span>
       </div>
       <p className="mt-2 text-gray-500 font-normal text-base">
-        You're just getting started
+        You are just getting started
       </p>
       <ul className="my-8 space-y-3 flex-grow">
         {features.map((item, id) => (

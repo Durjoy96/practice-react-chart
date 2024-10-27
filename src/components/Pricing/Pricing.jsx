@@ -44,7 +44,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="mt-20 max-w-screen-xl mx-auto px-5 grid grid-cols-1 gap-6 lg:grid-cols-3">
+    <div className="my-20 max-w-screen-xl mx-auto px-5 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
       {pricingPlans.map((item) => (
         <Card key={item.id} data={item}></Card>
       ))}
